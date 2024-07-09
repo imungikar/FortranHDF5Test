@@ -1,4 +1,14 @@
-Building the Repository on Stellar Cluster
+Building the Repository Locally
+- Access your particular location for all of these files
+- https://www.youtube.com/watch?v=ysqvDunaXNA
+- Vim this file into your scratch folder
+- module purge
+- module load openmpi/gcc/4.1.2
+- module load hdf5/gcc/openmpi-4.1.0/1.10.6
+- gfortran -I${HDF5DIR}/include [filename] -o [exectuable] -L${HDF5DIR}/lib64 -lhdf5_fortran -lhdf5
+- chmod a+x [executable]
+- ./[executable]
+
 
 
 

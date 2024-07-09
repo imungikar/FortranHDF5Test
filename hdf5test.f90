@@ -1,10 +1,10 @@
-program hdf5test.f90
+program hdf5test
     use hdf5
     implicit none
 
     ! Variables
     integer(hid_t) :: file_id, dataset_id, dataspace_id  ! Handles for file, dataset, and dataspace
-    integer(hdferr) :: error                             ! Error handling
+    integer :: error                             ! Error handling
     integer, parameter :: rank = 2                       ! Rank of the dataset (2D array)
     integer, dimension(2) :: dims = [4, 6]               ! Dimensions of the dataset
     real(8), dimension(4, 6) :: data                     ! Data to write to the dataset
@@ -38,4 +38,4 @@ program hdf5test.f90
 
     print *, 'HDF5 file created and dataset written successfully.'
 
-end program hdf5test.f90
+end program hdf5test

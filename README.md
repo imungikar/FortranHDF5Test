@@ -30,4 +30,8 @@ Project Goals
 
 Links
 - https://docs.hdfgroup.org/archive/support/HDF5/doc/RM/RM_H5Front.html
+<<<<<<< HEAD
 https://docs.hdfgroup.org/archive/support/HDF5/doc/Intro/IntroExamples.html#CreateExample
+=======
+https://docs.hdfgroup.org/archive/support/HDF5/doc/Intro/IntroExamples.html#CreateExample
+>>>>>>> 051ec04f8d57b32e4c47ee7a6117e1adc8d3f255
